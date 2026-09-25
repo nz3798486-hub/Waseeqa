@@ -1,8 +1,9 @@
 {
-  "name": "react-example",
+  "name": "waseeqa",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://nz3798486-hub.github.io/Waseeqa/",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",

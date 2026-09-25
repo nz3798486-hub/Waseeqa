@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import traditionalSplitImg from '../assets/images/traditional_digital_split_1790331866250.jpg';
 import { 
   FileStack, 
   Cpu, 
@@ -58,7 +59,7 @@ export const ComparisonSection: React.FC = () => {
         <div className="relative rounded-2xl border border-slate-800 bg-slate-900/80 p-4 sm:p-6 mb-12 shadow-2xl backdrop-blur-xl">
           <div className="relative h-[260px] sm:h-[340px] md:h-[400px] w-full rounded-xl overflow-hidden border border-slate-700/60">
             <img
-              src="/src/assets/images/traditional_digital_split_1790331866250.jpg"
+              src={traditionalSplitImg}
               alt="Traditional legal registers transforming into AI digital workspace"
               className="h-full w-full object-cover object-center"
               referrerPolicy="no-referrer"

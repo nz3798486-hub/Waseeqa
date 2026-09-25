@@ -1,4 +1,5 @@
 import React from 'react';
+import heroRobotImg from '../assets/images/hero_robot_legal_1790333305199.jpg';
 import { 
   ArrowRight, 
   Phone, 
@@ -95,7 +96,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenConsultation }) 
             <div className="relative w-full max-w-[560px] rounded-2xl overflow-hidden border border-blue-400/30 bg-gradient-to-b from-[#0b2158]/80 to-[#07163d]/90 p-2 shadow-2xl shadow-blue-950/80">
               
               <img
-                src="/src/assets/images/hero_robot_legal_1790333305199.jpg"
+                src={heroRobotImg}
                 alt="AI Waseeqa Navesi - 3D AI Robot Assistant drafting legal documents on laptop"
                 className="w-full h-auto rounded-xl object-cover transform transition-transform duration-700 hover:scale-[1.02]"
                 referrerPolicy="no-referrer"
