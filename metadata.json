@@ -1,0 +1,6 @@
+{
+  "name": "AI Waseeqa Navesi",
+  "description": "Modern Legal & Documentation Services Website powered by AI assistance. Filer, Registry, Stamp Paper drafting, Government schemes, and Online Applications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
